@@ -1,0 +1,460 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: AMET CONSE ;
+   
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(9, 63, 63);
+    text-align: center;
+    position: fixed;
+
+}
+
+nav a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 40px;
+    line-height: 50px;
+}
+
+.parent 
+        {
+            height: 600px;
+            background-repeat: no-repeat;
+            background-image: url('landscape.jpeg');
+            background-size: 100% 100% ; 
+            margin: auto;
+            
+        
+        }
+.image-overlay{
+    width: 100%;
+    height: 100%;
+     background-color: rgba(0, 255, 247, 0.5);
+     text-align: center;
+     color: antiquewhite;
+     line-height: 80px;
+     font-size: 2rem;
+
+}
+
+.image-overlay h1{
+    padding-top: 200px;
+}
+.image-overlay p{
+    font-size: 22px;
+}
+
+.btn
+{
+    
+    font-size: 30px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    font-size: 18px;
+    color:grey ;
+}
+
+.parent1{
+    padding-top:3%;
+    padding-bottom:5%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(9, 63, 63);
+   
+}
+.parent1 img{ 
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.parent1 h2{
+    padding-bottom: 3%;
+    font-size:xx-large;
+    font-style: italic;
+    font-weight: bold;
+    color:whitesmoke; 
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: centre;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color:whitesmoke;
+    /* flex-flow= flex-direction+flex-wrap */
+}
+
+.parent2{
+    width: 100%;
+    height: 500px;
+    background-color: grey;
+    display: flex;
+}
+
+.demoA{
+    margin: 6%;
+    flex-direction: column;
+    height: 500px;
+    width: 33%;
+    font-size: 30px;
+    justify-content: space-evenly;
+    
+}
+
+.demoB{
+    margin: 6%;
+    flex-direction: column;
+    height: 100%;
+    width: 33%;
+    font-size: 30px;
+    
+}
+
+.demoC{
+    margin: 6%;
+    flex-direction: column;
+    height: 100%;
+    width: 34%;
+}
+
+.demoA h1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+.demoA h3{
+    color: #00ffaeb2; 
+    font-size: 18px;
+}
+
+.demoA p{
+    font-size: 16px; 
+    margin: 4%;
+}
+
+.demoA button{
+    background-color:#00ffaeb2;
+    font-size: 30px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.demoB h1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+.demoB h3{
+    color: #00ffaeb2; 
+    font-size: 18px;
+}
+
+.demoB p{
+    font-size: 16px; 
+    margin: 4%;
+}
+
+.demoB button{
+    background-color: #00ffaeb2;
+    font-size: 30px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+
+.demoC h1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.demoC h3{
+    color: #00ffaeb2; 
+    font-size: 18px;
+}
+
+.demoC p{
+    font-size: 16px; 
+    margin: 4%;
+}
+
+.demoC button{
+    background-color:#00ffaeb2;
+    font-size: 30px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.parent3{
+    background-color:rgb(9, 63, 63);
+    width: 100%;
+    height: 780px;
+    display: flex;
+}
+
+.practiceA{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 80%;
+    font-size: 30px;
+    margin: 3%;
+    justify-content: space-between;
+}
+
+.practiceA img{
+    border-radius:1cqmin;
+    margin: 2%;
+}
+
+.practiceA h1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: #00ffaeb2; 
+    margin: 2%;
+}
+
+.practiceA h3{
+    color: #00ffaeb2; 
+    font-size: 18px;
+    margin: 2%;
+}
+
+.practiceA p{
+    font-size: 16px; 
+    margin: 2%;
+    
+}
+.line{
+        border-top: 3px solid #bbb;
+        margin-top: 2%;
+}
+
+.practiceA button{
+    background-color:#00ffaeb2;
+    font-size: 30px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+/*.practiceB{
+    display: flex;
+    margin: 2%;
+    flex-direction: column;
+    height: 400px;
+    width: 40%;
+    font-size: 30px;
+}
+
+.practiceB img{
+    border-radius:70px ;
+    border-right-width: 50px;
+}
+
+.practiceB h1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: #00ffaeb2; 
+}
+
+.practiceB h3{
+    color: #00ffaeb2; 
+    font-size: 18px;
+}
+
+.practiceB p{
+    font-size: 16px; 
+    margin-left: 280px;
+}
+
+.practiceB button{
+    background-color:#00ffaeb2;
+    font-size: 30px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+    margin-left: 280px;
+}*/
+
+.practiceC{
+    display: flex;
+    
+    flex-direction: column;
+    height: 600px;
+    width: 20%;
+    font-size: 30px;
+    margin: 07%;
+    
+}
+
+.practiceC img{
+    height: 70px;
+    width: 70px;
+}
+
+.practiceC input{
+    width: 130%;
+    padding:8px 0px;
+}
+
+.practiceC h1{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: #00ffaeb2; 
+    margin-left: 1%;
+}
+
+.practiceC h3{
+    color: #00ffaeb2; 
+    font-size: 18px;
+}
+.practiceC form{
+    width: auto;
+    height: 500px;
+    font-size:70;
+    color: rgb(9, 63, 63);
+}
+
+.practiceC button{
+    background-color:#00ffaeb2;
+    font-size: 30px;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px ;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+   
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color:  #00ffaeb2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.A{
+
+    height: 250px;
+    width: 280px;
+    align-self:flex-start ;
+    margin: 4%;
+}
+
+.A hr{
+    border-top: 3px solid #bbb;
+    margin-top: 2%;  
+}
+
+.B{
+   
+    height: 250px;
+    width: 230px;
+    margin: 4%;
+}
+
+.B hr{
+    border-top: 3px solid #bbb;
+    margin-top: 2%;  
+}
+
+.C{
+    
+    height: 250px;
+    width: 230px;
+    margin: 4%;
+}
+
+.C hr{
+    border-top: 3px solid #bbb;
+    margin-top: 2%;  
+}
+
+.D{
+    
+    height: 250px;
+    width: 230px;
+    margin: 4%;
+}
+
+.D hr{
+    border-top: 3px solid #bbb;
+    margin-top: 2%;  
+}
+.E{
+    
+    height: 250px;
+    width: 230px;
+    margin: 4%;
+}
+
+.E hr{
+    border-top: 3px solid #bbb;
+    margin-top: 2%;  
+}
+
+.F{
+  
+    height: 250px;
+    width: 280px;
+    margin: 4%;
+}
+
+.F hr{
+    border-top: 3px solid #bbb;
+    margin-top: 2%;  
+}
+
+.footerB{
+    height: 100px;
+    width: 100%;
+    background-color:  #2e8b6e;
+}
+
+.footerB p{
+    font-weight:bold ;
+    color: antiquewhite;
+    font-size: 20px;
+}
